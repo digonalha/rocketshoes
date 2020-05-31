@@ -11,19 +11,19 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
 
-  button {
-    background: #7159c1;
-    color: #fff;
-    border: 0;
-    border-radius: 4px;
-    padding: 12px 20px;
-    font-weight: bold;
-    text-transform: uppercase;
+    button {
+      background: #7159c1;
+      color: #fff;
+      border: 0;
+      border-radius: 4px;
+      padding: 12px 20px;
+      font-weight: bold;
+      text-transform: uppercase;
 
-    &:hover {
-      background: ${darken(0.03, '#7159c1')};
+      &:hover {
+        background: ${darken(0.03, '#7159c1')};
+      }
     }
   }
 `;
