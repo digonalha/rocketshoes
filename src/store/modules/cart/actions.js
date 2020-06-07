@@ -12,16 +12,10 @@ export function removeFromCart(id) {
   };
 }
 
-export function incrementQuantity(id) {
+export function updateAmount(id, amount) {
   return {
-    type: '@cart/INCREMENT',
+    type: '@cart/UPDATE_AMOUNT',
     id,
-  };
-}
-
-export function decrementQuantity(id) {
-  return {
-    type: '@cart/DECREMENT',
-    id,
+    amount,
   };
 }
