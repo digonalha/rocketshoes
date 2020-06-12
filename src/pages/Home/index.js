@@ -26,7 +26,7 @@ class Home extends Component {
   handleAddProduct = (id) => {
     const { addToCartRequest } = this.props;
 
-    // dispara as acoes do redux
+    // dispara as acoes do redux/redux-saga
     addToCartRequest(id);
   };
 
